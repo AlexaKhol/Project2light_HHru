@@ -1,4 +1,4 @@
---Запрос 9 для определения наиболее востребованных навыков для различных грейдов и позиций 
+--Запрос 9 для определения наиболее востребованных навыков для различных грейдов и позиций
 SELECT key_skills_1, experience, COUNT(*) AS quant_numb
 FROM public.parcing_table
 WHERE key_skills_1 IS NOT NULL

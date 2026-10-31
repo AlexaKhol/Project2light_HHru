@@ -1,4 +1,4 @@
---Запрос 4 для определения преобладающих типов занятости 
+--Запрос 4 для определения преобладающих типов занятости
 SELECT employment,COUNT(id) AS num_vac
 FROM public.parcing_table
 GROUP BY employment 

@@ -1,4 +1,4 @@
---Запрос 5 для определения преобладающих типов  графиков работы 
+--Запрос 5 для определения преобладающих типов  графиков работы
 SELECT schedule,COUNT(id) AS num_vac
 FROM public.parcing_table
 GROUP BY schedule 

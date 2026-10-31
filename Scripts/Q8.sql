@@ -1,4 +1,4 @@
---Запрос 8 для выявления основных работодателей (указать запраты и условия труда) для аналитиков данных и 
+--Запрос 8 для выявления основных работодателей (указать запраты и условия труда) для аналитиков данных и
 --системных аналитиков
 SELECT employer,COUNT(id) AS num_vac, ROUND(AVG(salary_from),2) AS avg_salary_from, 
 ROUND(AVG(salary_to),2) AS avg_salary_to, schedule, employment
